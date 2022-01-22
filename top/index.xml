@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tops on netzap.xyz</title>
+    <link>/top/</link>
+    <description>Recent content in Tops on netzap.xyz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/top/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>/top/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/top/about/</guid>
+      <description>netzap.xyz is a collection of Salesforce.com implementation notes and patterns as we learn them. It is meant as a reference for the future us, implementers and clients evaluating a Salesforce.com implementation.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/top/links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/top/links/</guid>
+      <description>Useful Links </description>
+    </item>
+    
+    <item>
+      <title>Posts Archive</title>
+      <link>/top/archive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/top/archive/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

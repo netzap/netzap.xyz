@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2022-01-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/intro/</loc>
+    <lastmod>2022-01-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2022-01-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/opinion/</loc>
+    <lastmod>2022-01-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2022-01-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/salesforce-industries/</loc>
+    <lastmod>2022-01-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2022-01-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/2021/11/04/sfi/</loc>
+    <lastmod>2022-01-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/top/about/</loc>
+  </url><url>
+    <loc>/top/links/</loc>
+  </url><url>
+    <loc>/top/archive/</loc>
+  </url><url>
+    <loc>/top/</loc>
+  </url>
+</urlset>

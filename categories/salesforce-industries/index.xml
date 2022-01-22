@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Salesforce Industries on netzap.xyz</title>
+    <link>/categories/salesforce-industries/</link>
+    <description>Recent content in Salesforce Industries on netzap.xyz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/salesforce-industries/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why is Salesforce Industries a big deal?</title>
+      <link>/2021/11/04/sfi/</link>
+      <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/11/04/sfi/</guid>
+      <description>Salesforce is bringing in new tools to help businesses achieve quicker value while reducing the cost to build solutions. Salesforce is using industry specific clouds that add to the Salesforce platform with smart defaults which help propel solutions forward.
+Salesforce started (and still advertises itself) as a CRM platform on the cloud. Over the years, Salesforce has acquired new tools and companies that help extend its margin of innovation from its competition.</description>
+    </item>
+    
+  </channel>
+</rss>

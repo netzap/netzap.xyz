@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta name="propeller" content="5b4397fbb59160296ec23a5c7274b68d">
+
+    
+    <meta property="og:site_name" content="netzap.xyz">
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:image" content="//img/akl.jpg">
+    <meta property="twitter:image" content="//img/akl.jpg" />
+    
+
+    
+    <meta name="title" content="Why is Salesforce Industries a big deal?" />
+    <meta property="og:title" content="Why is Salesforce Industries a big deal?" />
+    <meta property="twitter:title" content="Why is Salesforce Industries a big deal?" />
+    
+
+    
+    <meta name="description" content="writing on cloud tech, salesforce.com and salesforce industries">
+    <meta property="og:description" content="writing on cloud tech, salesforce.com and salesforce industries" />
+    <meta property="twitter:description" content="writing on cloud tech, salesforce.com and salesforce industries" />
+    
+
+    
+    <meta property="twitter:card" content="summary" />
+    
+    
+
+    <meta name="keyword"  content="Salesforce.com, Salesforce Industries, Salesforce OmniChannel, Salesforce Automation, Salesforce low code">
+    <link rel="shortcut icon" href="/img/favicon.png">
+
+    <title>Why is Salesforce Industries a big deal?-Salesforce.com Implementation Notes and Ideas</title>
+
+    <link rel="canonical" href="/2021/11/04/sfi/">
+
+    <link rel="stylesheet" href="/css/iDisqus.min.css"/>
+
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.min.css">
+
+    
+    <link rel="stylesheet" href="/css/zanshang.css">
+
+    
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" type="text/css">
+
+    
+    
+
+    
+    
+    <script src="/js/jquery.min.js"></script>
+
+    
+    <script src="/js/bootstrap.min.js"></script>
+
+    
+    <script src="/js/hux-blog.min.js"></script>
+
+    
+    
+
+</head>
+
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+
+    <div class="container-fluid">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">netzap.xyz</a>
+        </div>
+
+        
+        
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    
+                        
+                        <li>
+                            <a href="/categories/salesforce-industries">salesforce-industries</a>
+                        </li>
+                        
+                    
+                    
+		    
+                        <li><a href="/top/links/">LINKS</a></li>
+                    
+                        <li><a href="/top/archive/">ARCHIVE</a></li>
+                    
+                        <li><a href="/top/about/">ABOUT</a></li>
+                    
+
+                    
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+</nav>
+<script>
+    
+    
+    
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        
+            $navbar.className = " ";
+            
+            setTimeout(function(){
+                
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('/img/post/sfi/sficover.jpg')
+    }
+</style>
+
+<header class="intro-header" >
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/intro" title="Intro">
+                            Intro
+                        </a>
+                        
+                        <a class="tag" href="/tags/opinion" title="Opinion">
+                            Opinion
+                        </a>
+                        
+                    </div>
+                    <h1>Why is Salesforce Industries a big deal?</h1>
+                    <h2 class="subheading">Changing the way we build Salesforce Solutions</h2>
+                    <span class="meta">
+                        
+                            Posted by 
+                            
+                                netzap
+                             
+                            on 
+                            Tuesday, January 4, 2022
+                            
+                            
+                            
+                            
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<article>
+    <div class="container">
+        <div class="row">
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                
+                <p>Salesforce is bringing in new tools to help businesses achieve quicker value while reducing the cost to build solutions. Salesforce is using industry specific clouds that add to the Salesforce platform with smart defaults which help propel solutions forward.</p>
+<p>Salesforce started (and still advertises itself) as a CRM platform on the cloud. Over the years, Salesforce has acquired new tools and companies that help extend its margin of innovation from its competition. Salesforce is today, for all practical purposes, a very flexible enterprise grade platform which lends itself to building business specific solutions rapidly with powerful user configurable tools.</p>
+<p>As Salesforce became a mainstream enterprise grade tool that is used by large firms in business-critical scenarios, it became crucial that solutions be designed with best practices for that specific industry and be deployed rapidly. This was a shift from the earlier world where Salesforce prided itself in being an easy to configure platform that can be setup to align with the way your business is run.</p>
+<p>In 2020 a significant acquisition that Salesforce made was of Vlocity. Vlocity is an Independent Software Vendor (ISV) that provides industry specific solutions on Salesforce. It provides packages that are pre-designed for various industries. Vlocity developed tools that allowed its clients to rapidly create reusable artefacts that help in solution development.</p>
+<p>This acquisition was rebranded into Salesforce industries. Salesforce doubled down on industry specific clouds, adding new clouds for communication, media &amp; entertainment and energy &amp; utilities.</p>
+<p>While the change is not apparent, the solution design and implementation patterns have changed. This new paradigm should be considered while designing new Salesforce implementations.</p>
+<p>
+  <img src="/img/post/sfi/sfi-clouds.png" alt="SFIndustries">
+
+</p>
+<p>The most visible change is OmniStudio, the new toolset available with Salesforce Industries. (details on OmniStudio coming soon) These tools enable integration tools (dataraptor &amp; integration procedures), reusable interfaces (flexcards) and automation tools (Omniscript) which are more end user facing that the current tools that are available with the Salesforce platform.</p>
+<p>Another significant change is the additional data model that each of the clouds bring prebuilt on to the platform. One way to think about this is Sales Cloud and Service Cloud provide certain object model that is suited to each of their functions, Salesforce Industries take it one step further. Industries bring in additive data model that does not replace or duplicate the platform provided object model, but enhance and extend it by way of new fields and objects. I am yet to explore quirks if any of the fields</p>
+<p>Salesforce has also been primarily metadata driven. Metadata is the definition of the Salesforce configuration. The use of metadata is the reason Salesforce flexible to this extend. Vlocity having started life as a third party application, the definition of the application and setup are data driven. This is a significant difference that would change the way we deploy changes from instance to instance. Currently industries use datapacks to move configuration from one org to another. One can draw parallels in the migration strategy of other installable like Conga where the solution definition is data.</p>
+<p>Ultimately using the Salesforce Industries in your design, allows for much faster development, improving time to value of the project. The tooling also promotes reusability, using autogenerated lightning components that are configurable modules that can be reused in the solution. Success of an Industries project would depend heavily on the consulting skills of the implementer, since there is a prebuilt palette that needs to be carefully extended to derive maximum value.</p>
+<p>I will continue to explore Industries and write about what I discover. Tell me what you would like to know in the comments below.</p>
+
+
+                
+
+                <hr>
+                <ul class="pager">
+                    
+                    
+                </ul>
+                
+
+<div id="disqus-comment"></div>
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "netzapxyz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+            </div>
+
+            
+            
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+            
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                </section>
+                
+
+                
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                   
+                   <li>
+                       <a href='' rel="alternate" type="application/rss+xml" title="netzap.xyz" >
+                           <span class="fa-stack fa-lg">
+                               <i class="fas fa-circle fa-stack-2x"></i>
+                               <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+                           </span>
+                       </a>
+                   </li>
+                   
+                    
+                    <li>
+                        <a href="mailto:youremail@gmail.com">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+
+                    
+                    
+                    
+
+                    
+
+		    
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/yourgithub">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+                    
+                    
+                    
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://stackoverflow.com/users/yourstackoverflowid">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-stack-overflow fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+            
+                    
+                    
+                    
+            
+            
+            
+                </ul>
+		<p class="copyright text-muted">
+                    Copyright &copy; netzap.xyz 2022
+                    <br>
+                    <a href="/">made with love</a> in <a href="/">New Zealand</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="150px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=netzap&type=follow" >
+                    </iframe>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function loadAsync(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        loadAsync("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    loadAsync("https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RZPT3QJFZ4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-RZPT3QJFZ4', { 'anonymize_ip': false });
+}
+</script>
+
+
+
+
+
+
+<script type="text/javascript">
+    function generateCatalog(selector) {
+
+        
+        
+        
+        
+            _containerSelector = 'div.post-container'
+        
+
+        
+        var P = $(_containerSelector), a, n, t, l, i, c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        
+        $(selector).html('')
+
+        
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#" + $(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+            l = $('<li class="' + n + '_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    
+    $(".catalog-toggle").click((function (e) {
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    
+
+
+    loadAsync("\/js\/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+
+
+<script type="text/javascript"> var infolinks_pid = 3356652; var infolinks_wsid = 0; </script> <script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9316582933125107"
+     crossorigin="anonymous"></script>
+</body>
+</html>
