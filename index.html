@@ -115,6 +115,7 @@
                         <li><a href="/top/about/">ABOUT</a></li>
                     
 
+
                     
                 </ul>
             </div>
@@ -182,6 +183,7 @@
             col-xs-12
             post-container
         ">
+        <div class="gcse-searchresults"></div> 
             
 
 <div class="post-preview">
@@ -250,7 +252,9 @@ Salesforce started (and still advertises itself) as a CRM platform on the cloud.
     col-xs-12
     sidebar-container
 ">
-    
+<script async src="https://cse.google.com/cse.js?cx=f8662d312236ce63e"></script>
+<div class="gcse-searchbox"></div>   
+
     
     <section>
         <hr class="hidden-sm hidden-xs">
@@ -332,17 +336,20 @@ Salesforce started (and still advertises itself) as a CRM platform on the cloud.
 		<p class="copyright text-muted">
                     Copyright &copy; netzap.xyz 2022
                     <br>
-                    <a href="/">made with love</a> in <a href="/">New Zealand</a> |
+                    <a href="/">made</a> in <a href="/">New Zealand</a> |
                     <iframe
                         style="margin-left: 2px; margin-bottom:-5px;"
                         frameborder="0" scrolling="0" width="150px" height="20px"
                         src="https://ghbtns.com/github-btn.html?user=netzap&type=follow" >
                     </iframe>
+                    <br>This website contains marketing and ads for monetization
                 </p>
             </div>
         </div>
     </div>
+    
 </footer>
+
 
 
 
@@ -391,12 +398,13 @@ Salesforce started (and still advertises itself) as a CRM platform on the cloud.
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-RZPT3QJFZ4"></script>
 <script>
-var doNotTrack = false;
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
 if (!doNotTrack) {
 	window.dataLayer = window.dataLayer || [];
 	function gtag(){dataLayer.push(arguments);}
 	gtag('js', new Date());
-	gtag('config', 'G-RZPT3QJFZ4', { 'anonymize_ip': false });
+	gtag('config', 'G-RZPT3QJFZ4', { 'anonymize_ip': true });
 }
 </script>
 
@@ -461,6 +469,8 @@ if (!doNotTrack) {
         });
     });
 </script>
+
+
 
 
 
